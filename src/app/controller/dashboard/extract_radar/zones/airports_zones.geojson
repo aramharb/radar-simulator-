@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTB" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.7913888889, 37.2455555556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTI" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9430555556, 36.7211111111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTJ" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.7752777778, 33.875]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTR" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.2547222222, 31.7041666667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTNH" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.4138888889, 36.0919444444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTG" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9182083333, 33.7333694444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTF" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.8225, 34.4219444444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "THELEPTE" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7741546944, 35.18796425]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTMB" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.7547222222, 35.7580555556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTD" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.3822222222, 32.3061111111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTKA" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.8769444444, 36.98]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTZ" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.1105555556, 33.9397222222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTA" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2272222222, 36.8511111111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "DTTX" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.6908333333, 34.7177777778]
+      }
+    }
+  ]
+}

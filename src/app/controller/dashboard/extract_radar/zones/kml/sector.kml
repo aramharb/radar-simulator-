@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>couche1</name>
+ 
+ <!-- verte -->
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color><width>0</width></LineStyle></Style>
+	<Style><PolyStyle><color>ff000000</color><outline>0</outline></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#couche1">
+		<SimpleData name="id">19</SimpleData>
+	</SchemaData></ExtendedData>
+	
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><altitude>1000</altitude><coordinates>9.5583333,37.1166667 9.625,37.1416667 9.625,37.06666667 9.5583333,37.1166667</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+   <Placemark>
+	<Style><LineStyle><color>ff0000ff</color><width>0</width></LineStyle></Style>
+	<Style><PolyStyle><color>ff000000</color><outline>0</outline></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#couche1">
+		<SimpleData name="id">19</SimpleData>
+	</SchemaData></ExtendedData>
+	
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><altitude>1000</altitude><coordinates>9.5583333,37.1166667 9.625,37.1416667 9.625,37.1833333 9.5333334,37.1666667 9.5583333,37.1166667</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+   <Placemark>
+	<Style><LineStyle><color>ff0000ff</color><width>0</width></LineStyle></Style>
+	<Style><PolyStyle><color>ff000000</color><outline>0</outline></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#couche1">
+		<SimpleData name="id">19</SimpleData>
+	</SchemaData></ExtendedData>
+	
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><altitude>1000</altitude><coordinates>9.6666667,37.2666667 9.7333333,37.2666667 9.73390817642212,37.2752821924539 9.7333288192749,37.2800970805026 9.73201990127563,37.2839726708918 9.73021745681763,37.287267619398 9.72779273986816,37.2904941389943 9.72493886947632,37.2932937581648 9.72049713134766,37.2965029495348 9.71704244613647,37.2983123268636 9.71268653869629,37.3000192467087 9.7089958190918,37.3010092424693 9.70371723175049,37.3017944022547 9.69918966293335,37.3019480195148 9.6954345703125,37.3017431964316 9.69200134277344,37.3011969988158 9.68788146972656,37.3001899365626 9.68311786651611,37.2983806044011 9.67947006225586,37.2964688099216 9.67676639556885,37.2946252477976 9.67369794845581,37.291996386624 9.67110157012939,37.2891113618236 9.66899871826172,37.2859359995493 9.66762542724609,37.2828970865191 9.66663837432861,37.2796531675433 9.66610193252563,37.2754870875811 9.66623067855835,37.272481903156 9.6666667,37.2666667</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+   <Placemark>
+	<Style><LineStyle><color>ff0000ff</color><width>0</width></LineStyle></Style>
+	<Style><PolyStyle><color>ff000000</color><outline>0</outline></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#couche1">
+		<SimpleData name="id">19</SimpleData>
+	</SchemaData></ExtendedData>
+	
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><altitude>1000</altitude><coordinates>9.6833333,37.3 9.67453479766846,37.2927304285335 9.66977119445801,37.2870969002215 9.66758251190186,37.282658065682 9.66629505157471,37.2773311186301 9.66620922088623,37.2731307599477 9.6666667,37.2666667 9.5666667,37.2666667 9.5666667,37.3 9.6333333,37.3166667 9.6833333,37.3</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+   <Placemark>
+	<Style><LineStyle><color>ff0000ff</color><width>0</width></LineStyle></Style>
+	<Style><PolyStyle><color>ff000000</color><outline>0</outline></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#couche1">
+		<SimpleData name="id">19</SimpleData>
+	</SchemaData></ExtendedData>
+	
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><altitude>1000</altitude><coordinates>9.2722222,37.1097222 9.45,37.1097222 9.45,37.2555556 9.2722222,37.2222222 9.2722222,37.1097222</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+   <Placemark>
+	<Style><LineStyle><color>ff0000ff</color><width>0</width></LineStyle></Style>
+	<Style><PolyStyle><color>ff000000</color><outline>0</outline></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#couche1">
+		<SimpleData name="id">19</SimpleData>
+	</SchemaData></ExtendedData>
+	
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><altitude>1000</altitude><coordinates>8.7166666,34.5 8.8333333,34.5 8.8333333,34.6166667 8.7166666,34.6166667 8.7166666,34.5</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+   <Placemark>
+	<Style><LineStyle><color>ff0000ff</color><width>0</width></LineStyle></Style>
+	<Style><PolyStyle><color>ff000000</color><outline>0</outline></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#couche1">
+		<SimpleData name="id">19</SimpleData>
+	</SchemaData></ExtendedData>
+	
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><altitude>1000</altitude><coordinates>8.5833333,34.35 8.7,34.4 8.6833333,34.4666667 8.6,34.4166667 8.5833333,34.35 </coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+
+</Folder>
+<Schema name="couche1" id="couche1">
+	<SimpleField name="id" type="int"></SimpleField>
+</Schema>
+</Document></kml>

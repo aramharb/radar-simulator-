@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document>
+	<name>BAN 115.3.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>0.01</scale>
+			<Icon>
+				<href>./images/vodd.svg</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>./images/triangle-red.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>BAN 115.3</name>
+		<LookAt>
+			<longitude>9.920644893951559</longitude>
+			<latitude>33.73225445626223</latitude>
+			<altitude>0</altitude>
+			<heading>3.934637468720202</heading>
+			<tilt>0</tilt>
+			<range>1434844.529082432</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>9.16775,34.86330555555556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>BIZ 114.2</name>
+		<LookAt>
+			<longitude>9.766406269048753</longitude>
+			<latitude>37.23660182097959</latitude>
+			<altitude>0</altitude>
+			<heading>-0.7107071366666993</heading>
+			<tilt>0.1568509003982681</tilt>
+			<range>474.8481065542778</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>9.766327777777779,37.2370498343075,0</coordinates>
+		</Point>
+	</Placemark>
+<Placemark>
+		<name>CBN 112.7</name>
+		<LookAt>
+			<longitude>11.08932681902205</longitude>
+			<latitude>36.89571415863895</latitude>
+			<altitude>0</altitude>
+			<heading>0.04711756355410582</heading>
+			<tilt>22.55631649772452</tilt>
+			<range>405.8473237089464</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>11.08849276655048,36.89537857970969,0</coordinates>
+		</Point>
+	</Placemark>
+<Placemark>
+		<name>EBA 113.8</name>
+		<LookAt>
+			<longitude>8.681018504969034</longitude>
+			<latitude>34.34001289672977</latitude>
+			<altitude>0</altitude>
+			<heading>0.1916388294872282</heading>
+			<tilt>0</tilt>
+			<range>1146341.357136905</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>9.254666666666667,31.70586111111112,0</coordinates>
+		</Point>
+	</Placemark>
+<Placemark>
+		<name>GAB 115.4</name>
+		<LookAt>
+			<longitude>9.272520270379989</longitude>
+			<latitude>33.59351136759386</latitude>
+			<altitude>0</altitude>
+			<heading>2.485808657497788</heading>
+			<tilt>0</tilt>
+			<range>1410689.453958269</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>9.920194444444444,33.73219444444445,0</coordinates>
+		</Point>
+	</Placemark>
+
+<Placemark>
+		<name>GAF 109.0</name>
+		<LookAt>
+			<longitude>8.820581937501894</longitude>
+			<latitude>35.27816269009875</latitude>
+			<altitude>0</altitude>
+			<heading>0.2755834389890337</heading>
+			<tilt>0.05636510177181613</tilt>
+			<range>1130642.217680033</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>8.824166666666667,34.4205,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+<Placemark>
+		<name>JBA 112.2</name>
+		<LookAt>
+			<longitude>10.77174695514044</longitude>
+			<latitude>33.87717071937726</latitude>
+			<altitude>0</altitude>
+			<heading>-0.5985495745191528</heading>
+			<tilt>0</tilt>
+			<range>191.7260252266227</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>10.77161362329518,33.87725946033448,0</coordinates>
+		</Point>
+	</Placemark>
+
+<Placemark>
+		<name>MON 113.1</name>
+		<LookAt>
+			<longitude>10.75260612153971</longitude>
+			<latitude>35.75510891151897</latitude>
+			<altitude>0</altitude>
+			<heading>-0.5779089497441281</heading>
+			<tilt>0</tilt>
+			<range>4393.361790724578</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>10.74819444444444,35.75494444444445,0</coordinates>
+		</Point>
+	</Placemark>
+<Placemark>
+		<name>NBA 114.35</name>
+		<LookAt>
+			<longitude>10.4410047115882</longitude>
+			<latitude>36.07471448661725</latitude>
+			<altitude>0</altitude>
+			<heading>-0.1067231996040293</heading>
+			<tilt>0</tilt>
+			<range>2968.024786940965</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>10.43525,36.07394444444445,0</coordinates>
+		</Point>
+	</Placemark>
+
+<Placemark>
+		<name>SFX 114.0</name>
+		<LookAt>
+			<longitude>10.68954517577111</longitude>
+			<latitude>34.71643308344868</latitude>
+			<altitude>0</altitude>
+			<heading>-0.6144248818231722</heading>
+			<tilt>0</tilt>
+			<range>322.0416322312856</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>10.68891521827902,34.71612086876635,0</coordinates>
+		</Point>
+	</Placemark>
+<Placemark>
+		<name>TBK 113.3</name>
+		<LookAt>
+			<longitude>8.883535800225928</longitude>
+			<latitude>36.97804582088962</latitude>
+			<altitude>0</altitude>
+			<heading>-0.4750400862594915</heading>
+			<tilt>0</tilt>
+			<range>85.81978880925998</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>8.883584017845884,36.97809993307191,0</coordinates>
+		</Point>
+	</Placemark>
+<Placemark>
+		<name>TUC 116.5</name>
+		<LookAt>
+			<longitude>10.23355997202195</longitude>
+			<latitude>36.84859519630736</latitude>
+			<altitude>0</altitude>
+			<heading>-0.4655774757224263</heading>
+			<tilt>0</tilt>
+			<range>4757.765712256431</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>10.23033333333333,36.85158333333334,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+
+</Document>
+</kml>

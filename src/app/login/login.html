@@ -1,0 +1,35 @@
+<div class="login-screen">
+	<div class="radar" aria-hidden="true"></div>
+
+	<section class="login-card" aria-label="Radar Login">
+		<h1 class="title">RADAR SYSTEM</h1>
+		<p class="subtitle">Secure Access Control</p>
+
+		<form class="login-form" (submit)="$event.preventDefault()">
+			<label class="sr-only" for="username">Username</label>
+			<input
+				id="username"
+				class="login-input"
+				name="username"
+				placeholder="USERNAME"
+				autocomplete="username"
+				required
+			/>
+
+			<label class="sr-only" for="password">Password</label>
+			<input
+				id="password"
+				class="login-input"
+				type="password"
+				name="password"
+				placeholder="PASSWORD"
+				autocomplete="current-password"
+				required
+			/>
+
+			<button class="login-button" type="submit">LOGIN</button>
+		</form>
+
+		<div class="signature">O S C</div>
+	</section>
+</div>

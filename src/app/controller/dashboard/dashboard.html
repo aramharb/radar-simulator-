@@ -1,0 +1,47 @@
+<section class="dashboard-page">
+	<div id="map" class="map-root" #mapContainer aria-label="Radar network view"></div>
+
+	<aside class="operations-panel" role="region" aria-label="Tracked planes in foreground">
+		<h2>Tracked Planes</h2>
+		<ul class="aircraft-list">
+			@for (plane of airplanes; track plane.id) {
+				<li>
+					<button
+						type="button"
+						class="aircraft-item"
+						[class.active]="selectedAirplaneId === plane.id"
+						(click)="selectAirplane(plane.id)"
+					>
+						<span class="callsign">{{ plane.callsign }}</span>
+						<span class="meta">{{ plane.type }}</span>
+					</button>
+				</li>
+			}
+		</ul>
+
+		<section class="airplane-overlay" aria-label="Selected airplane details">
+			@if (selectedAirplane) {
+				<div class="overlay-header">
+					<h3>{{ selectedAirplane.callsign }}</h3>
+					<button type="button" class="close-btn" (click)="clearSelection()">Close</button>
+				</div>
+				<p class="overlay-type">{{ selectedAirplane.type }}</p>
+				<dl class="overlay-grid">
+					<div>
+						<dt>Sector</dt>
+						<dd>{{ selectedAirplane.sector }}</dd>
+					</div>
+					<div>
+						<dt>Route</dt>
+						<dd>{{ selectedAirplane.route }}</dd>
+					</div>
+				</dl>
+			} @else {
+				<div class="overlay-empty">
+					<h3>No airplane selected</h3>
+					<p>Select a tracked plane to view details.</p>
+				</div>
+			}
+		</section>
+	</aside>
+</section>

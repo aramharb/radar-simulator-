@@ -1,0 +1,126 @@
+:host {
+	display: block;
+	min-height: 100vh;
+}
+
+.login-screen {
+	position: relative;
+	min-height: 100vh;
+	padding: 1rem;
+	background: radial-gradient(circle at center, #0a2a2a 0%, #000 70%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #00ff99;
+	font-family: "Segoe UI", monospace;
+	overflow: hidden;
+}
+
+.radar {
+	position: absolute;
+	width: min(420px, 86vw);
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	border: 2px solid rgba(0, 255, 150, 0.4);
+	box-shadow: 0 0 25px rgba(0, 255, 150, 0.4);
+	overflow: hidden;
+}
+
+.radar::before {
+	content: "";
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	background: linear-gradient(45deg, rgba(0, 255, 150, 0.6), transparent);
+	transform-origin: bottom right;
+	animation: sweep 4s linear infinite;
+}
+
+@keyframes sweep {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.login-card {
+	position: relative;
+	z-index: 1;
+	width: min(360px, 92vw);
+	padding: 1.5rem;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.85);
+	border: 1px solid rgba(0, 255, 150, 0.4);
+	box-shadow: 0 0 25px rgba(0, 255, 150, 0.3);
+}
+
+.title {
+	margin: 0 0 0.75rem;
+	text-align: center;
+	font-size: 1.4rem;
+	letter-spacing: 3px;
+}
+
+.subtitle {
+	margin: 0 0 1.5rem;
+	color: #66e2ad;
+	font-size: 0.875rem;
+}
+
+.login-form {
+	display: grid;
+	gap: 0.75rem;
+}
+
+.login-input {
+	width: 100%;
+	padding: 0.625rem 0.75rem;
+	background: #000;
+	border: 1px solid #00ff99;
+	color: #00ff99;
+	outline: none;
+}
+
+.login-input::placeholder {
+	color: #00cc77;
+}
+
+.login-input:focus {
+	box-shadow: 0 0 10px #00ff99;
+	border-color: #00ff99;
+}
+
+.login-button {
+	margin-top: 0.25rem;
+	width: 100%;
+	padding: 0.625rem 0.75rem;
+	border: none;
+	cursor: pointer;
+	background: #00ff99;
+	color: #000;
+	font-weight: 700;
+}
+
+.login-button:hover {
+	background: #00cc77;
+}
+
+.signature {
+	margin-top: 1rem;
+	color: #6c757d;
+	font-size: 0.75rem;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}

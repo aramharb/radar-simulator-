@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="point1">
+    <IconStyle><Icon>kml_symbol_algerian_kml_maps_gstatic_com_mapfiles_ms2_micons_red-dot_png_0.png</Icon></IconStyle>
+  </Style>
+  <Folder>
+    <name>Point Features</name>
+    <description>Point Features</description>
+    <Placemark>
+      <description><![CDATA[<p>Name: Rabah Bitat Airport (Annaba)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Rabah Bitat Airport (Annaba)</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>7.8094444444,36.8222222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Rabah Bitat Airport (Annaba)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Ghedames Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>9.7008000000,30.1450000000,0</coordinates>
+      </Point>
+    </Placemark>
+	
+	
+	    <Placemark>
+      <description><![CDATA[<p>Name: Rabah Bitat Airport (Annaba)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Zouara Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>12.0178,32.9512,0</coordinates>
+      </Point>
+    </Placemark>
+	
+    <Placemark>
+      <description><![CDATA[<p>Name: Mostépha Ben Boulaid Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name><![CDATA[Mostépha Ben Boulaid Airport]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>6.3200000000,35.7591666667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Mostépha Ben Boulaid Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Zouara Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>12.0170000000,32.9510000000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Biskra Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Biskra Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>5.7380555556,34.7930555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Mohamed Boudiaf Airport (Constantine)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Mohamed Boudiaf Airport (Constantine)</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>6.6191666667,36.2852777778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Guemar Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Guemar Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>6.7825000000,33.5130555556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Oued Irara–Krim Belkacem Airport (Hassi Messaoud)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name><![CDATA[Oued Irara–Krim Belkacem Airport (Hassi Messaoud)]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>6.1405555556,31.6738888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: In Aménas Airport (Zarzaïtine Airport)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name><![CDATA[In Aménas Airport (Zarzaïtine Airport)]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>9.6427777778,28.0513888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Ferhat Abbas Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Ferhat Abbas Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>5.8736111111,36.7944444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Cheikh Larbi Tébessi Airport (Tébessa)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name><![CDATA[Cheikh Larbi Tébessi Airport (Tébessa)]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>8.1255555556,35.4325000000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: El Golea Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>El Golea Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>2.8647222222,30.5688888889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: In Salah Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>In Salah Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>2.5108333333,27.2536111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Ain Beida Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Ain Beida Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>5.4127777778,31.9172222222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Sidi Mahdi Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Sidi Mahdi Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>6.0908333333,33.0675000000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Telerghma Airport (Telerghma)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Telerghma Airport (Telerghma)</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>6.3641666667,36.1086111111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Bordj Omar Driss Airport (Bordj Omar Driss)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Bordj Omar Driss Airport (Bordj Omar Driss)</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>6.8330555556,28.1319444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Guelma Belkheir Airport (Guelma)
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Guelma Belkheir Airport (Guelma)</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>7.4686111111,36.4533333333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[<p>Name: Skikda Airport
+<BR/>description: <BR>Source: Wikipedia article <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Algeria#Airports">List of airports in Algeria</a>
+<BR/>timestamp: NULL
+<BR/>begin: NULL
+<BR/>end: NULL
+<BR/>altitudeMode: NULL
+<BR/>tessellate: -1
+<BR/>extrude: 0
+<BR/>visibility: -1
+<BR/>drawOrder: NULL
+<BR/>icon: NULL
+<BR/>snippet:]]></description>
+      <name>Skikda Airport</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>6.9494444444,36.8619444444,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

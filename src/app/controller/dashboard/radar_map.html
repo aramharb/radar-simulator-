@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radar Network View</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; }
+        #map { width: 100vw; height: 100vh; }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script src="data.js"></script><!--<used to load data extracted -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/L.KML.js"></script> 
+<script src="js/sql.js"></script>
+<script src="js/Leaflet.TileLayer.MBTiles.js"></script>
+<script>
+    const map = L.map('map').setView([33.8869, 9.5375], 6);
+    
+    // Define tile layers
+    const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19, attribution: '© OpenStreetMap'
+    });
+
+    const tnLayer = L.tileLayer.mbTiles('Leaflet.MovingMarker-master/examples/CARTE/tn.mbtiles', {
+        minZoom: 3, maxZoom: 15
+    });
+
+    const tunisiaLayer = L.tileLayer.mbTiles('Leaflet.MovingMarker-master/examples/CARTE/tunisia.mbtiles', {
+        minZoom: 3, maxZoom: 15
+    });
+
+    // Default layer
+    tnLayer.addTo(map);
+
+    // Save basemaps object for layer control later
+    const baseMaps = {
+        "TN Map (MBTiles)": tnLayer,
+        "Tunisia Map (MBTiles)": tunisiaLayer,
+        "OpenStreetMap": osmLayer
+    };
+
+    const pointsMap = new Map();
+    const pointGroup = L.layerGroup().addTo(map);
+    
+    radarData.points.forEach(row => {
+        const parts = row.split(',');
+        const name = parts[0].replace(/'/g, '');
+        const lat = parseInt(parts[3]) + (parseInt(parts[4])/60) + (parseInt(parts[5])/3600);
+        const lon = parseInt(parts[6]) + (parseInt(parts[7])/60) + (parseInt(parts[8])/3600);
+        const type = parts[9].replace(/'/g, '');
+        
+        pointsMap.set(name, [lat, lon]);
+        
+        const marker = L.circleMarker([lat, lon], { radius: 4, color: type === 'WAYPOINT' ? 'blue' : 'gray' });
+        marker.bindPopup(`<b>${name}</b><br/>Type: ${type}`);
+        marker.addTo(pointGroup);
+    });
+
+    const routeGroup = L.layerGroup().addTo(map);
+    if(radarData.routes) {
+        radarData.routes.forEach(row => {
+            const parts = row.split(',');
+            const routeName = parts[1].replace(/'/g, '');
+            const p1Name = parts[2].replace(/'/g, '');
+            const p2Name = parts[3].replace(/'/g, '');
+            
+            const p1 = pointsMap.get(p1Name);
+            const p2 = pointsMap.get(p2Name);
+            
+            if (p1 && p2) {
+                const line = L.polyline([p1, p2], { color: 'red', weight: 2 });
+                line.bindPopup(`<b>Route:</b> ${routeName}<br/><b>Path:</b> ${p1Name} to ${p2Name}`);
+                line.addTo(routeGroup);
+            }
+        });
+    }
+
+    const areaGroup = L.layerGroup().addTo(map);
+    if (radarData.areas) {
+        radarData.areas.forEach(row => {
+            const s = row.indexOf('['); 
+            const e = row.lastIndexOf(']');
+            if (s !== -1 && e !== -1) {
+                let jsonStr = row.substring(s, e+1);
+                // The JSON is double escaped in the dump eg `\"`
+                jsonStr = jsonStr.replace(/\\"/g, '"');
+                try {
+                    const latLngsObj = JSON.parse(jsonStr);
+                    const latLngs = latLngsObj.map(o => [o.lat, o.lng]);
+                    const poly = L.polygon(latLngs, { color: 'purple', fillOpacity: 0.3 });
+                    poly.addTo(areaGroup);
+                } catch(err) {
+                    console.error("Parse err", err, jsonStr);
+                }
+            }
+        });
+    }
+
+    const overlays = {
+        "Points": pointGroup,
+        "Routes": routeGroup,
+        "Areas": areaGroup
+    };
+
+    if (radarData.zones) {
+        const parser = new DOMParser();
+        for (const [zoneName, kmlStr] of Object.entries(radarData.zones)) {
+            try {
+                const kmlDoc = parser.parseFromString(kmlStr, 'text/xml');
+                const track = new L.KML(kmlDoc);
+                const singleZoneGroup = L.layerGroup().addTo(map);
+                singleZoneGroup.addLayer(track);
+                
+                const displayName = zoneName.replace(/_/g, ' ');
+                overlays["Zone: " + displayName] = singleZoneGroup;
+            } catch(err) {
+                console.error(`Zone parse err for ${zoneName}`, err);
+            }
+        }
+    }
+
+    const airportsGroup = L.layerGroup().addTo(map);
+    if (radarData.airports) {
+        L.geoJSON(radarData.airports, {
+            pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, {
+                    radius: 6,
+                    fillColor: "#ff7800",
+                    color: "#000",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+            },
+            onEachFeature: function (feature, layer) {
+                if (feature.properties && feature.properties.name) {
+                    layer.bindPopup('<b>Airport:</b> ' + feature.properties.name);
+                }
+            }
+        }).addTo(airportsGroup);
+        overlays["Airports"] = airportsGroup;
+    }
+
+
+
+    // Optional: Layer Controls
+    L.control.layers(baseMaps, overlays).addTo(map);
+
+</script>
+</body>
+</html>
