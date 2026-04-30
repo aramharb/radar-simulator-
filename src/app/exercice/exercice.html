@@ -1,0 +1,102 @@
+<div class="exercice-container">
+  <h2>Generate New Exercice</h2>
+
+  <form [formGroup]="exerciceForm" (ngSubmit)="onSubmit()" class="exercice-form">
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label for="exercicename">Exercice Name</label>
+        <input type="text" id="exercicename" formControlName="exercicename" placeholder="e.g. exc8">
+        <small class="error" *ngIf="exerciceForm.get('exercicename')?.invalid && exerciceForm.get('exercicename')?.touched">Required</small>
+      </div>
+
+      <div class="form-group">
+        <label for="aerodrome">Aerodrome</label>
+        <select id="aerodrome" formControlName="aerodrome">
+          <option value="" disabled selected>Select Aerodrome</option>
+          <option *ngFor="let ad of availableAerodromes" [value]="ad.label">
+            {{ ad.label }} - {{ ad.designation }}
+          </option>
+        </select>
+        <small class="error" *ngIf="exerciceForm.get('aerodrome')?.invalid && exerciceForm.get('aerodrome')?.touched">Required</small>
+      </div>
+    </div>
+
+    <!-- Planes Section -->
+    <div formArrayName="planes">
+      <div class="planes-container" *ngFor="let plane of planes.controls; let i = index" [formGroupName]="i">
+        
+        <div class="plane-header">
+          <h3>Plane #{{ i + 1 }} Configuration</h3>
+          <button type="button" class="btn btn-danger" *ngIf="planes.length > 1" (click)="removePlane(i)">Remove Plane</button>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Flight ID (Callsign)</label>
+            <input type="text" formControlName="fltid" placeholder="e.g. TAR4122">
+            <small class="error" *ngIf="plane.get('fltid')?.invalid && plane.get('fltid')?.touched">Required</small>
+          </div>
+          
+          <div class="form-group">
+            <label>SSR Code (Squawk)</label>
+            <input type="text" formControlName="ssrcode" placeholder="e.g. 6112">
+            <small class="error" *ngIf="plane.get('ssrcode')?.invalid && plane.get('ssrcode')?.touched">Required</small>
+          </div>
+
+          <div class="form-group">
+            <label>Starting Time</label>
+            <input type="text" formControlName="startingtime" placeholder="0800">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Departure</label>
+            <input type="text" formControlName="departuread" placeholder="e.g. DTTA">
+          </div>
+          
+          <div class="form-group">
+            <label>Destination</label>
+            <input type="text" formControlName="destinationad" placeholder="e.g. LFBO">
+          </div>
+          
+          <div class="form-group">
+            <label>Starting Point</label>
+            <input type="text" formControlName="starting_point" placeholder="e.g. RWY01">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Procedure</label>
+            <input type="text" formControlName="procedure" placeholder="e.g. 2B">
+          </div>
+          
+          <div class="form-group">
+            <label>Following Points (Route)</label>
+            <input type="text" formControlName="route" placeholder="e.g. TUC, KEL">
+          </div>
+
+          <div class="form-group">
+            <label>Aircraft Type</label>
+            <select formControlName="actype">
+              <option value="" disabled selected>Select Aircraft Type</option>
+              <option *ngFor="let ac of aircraftTypes" [value]="ac.actype">
+                {{ ac.actype }} (Cat: {{ ac.category }})
+              </option>
+            </select>
+            <small class="error" *ngIf="plane.get('actype')?.invalid && plane.get('actype')?.touched">Required</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="form-actions">
+      <button type="button" class="btn btn-secondary" (click)="addPlane()">+ Add Another Plane</button>
+      <button type="submit" class="btn btn-primary" [disabled]="exerciceForm.invalid">Generate Exercice</button>
+    </div>
+
+  </form>
+</div>

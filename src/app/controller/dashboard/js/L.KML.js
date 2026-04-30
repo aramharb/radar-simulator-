@@ -32,6 +32,22 @@ L.KML = L.FeatureGroup.extend({
 
 L.Util.extend(L.KML, {
 
+	_normalizeIconHref: function (href) {
+		if (!href) {
+			return href;
+		}
+
+		if (/^(https?:)?\/\//i.test(href) || href[0] === '/') {
+			return href;
+		}
+
+		if (href.indexOf('./') === 0) {
+			return '/dashboard/images/' + href.substring(2);
+		}
+
+		return href;
+	},
+
 	parseKML: function (xml, kmlOptions) {
 		var style = this.parseStyles(xml, kmlOptions);
 		this.parseStyleMap(xml, style);
@@ -127,7 +143,7 @@ L.Util.extend(L.KML, {
 		if (el && el[0]) { ioptions = _parse(el[0]); }
 		if (ioptions.href) {
 			var iconOptions = {
-				iconUrl: ioptions.href,
+				iconUrl: this._normalizeIconHref(ioptions.href),
 				shadowUrl: null,
 				anchorRef: {x: ioptions.x, y: ioptions.y},
 				anchorType:	{x: ioptions.xunits, y: ioptions.yunits}
@@ -273,7 +289,9 @@ L.Util.extend(L.KML, {
     }
 
     if (name) {
-      layer.bindPopup('<h2>' + name + '</h2>' + descr, { className: 'kml-popup'});
+      if (typeof layer.bindPopup === 'function') {
+        layer.bindPopup('<b>' + name + '</b>', { className: 'kml-popup' });
+      }
     }
   },
 

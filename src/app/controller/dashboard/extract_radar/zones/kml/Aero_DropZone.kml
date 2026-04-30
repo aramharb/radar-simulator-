@@ -5,7 +5,7 @@
 <Style id="style1">
 	<IconStyle>
 		<Icon>
-			<href>./helipad.png</href>
+			<href>/dashboard/images/helipad.png</href>
 		</Icon>
 	</IconStyle>
 </Style>
